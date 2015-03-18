@@ -4,7 +4,7 @@ android 版本自动升级框架
 先看效果
 ![image](https://github.com/linglongxin24/VersionUpdate/blob/master/20140721103828975.png)
 使用
-
+...java
 package com.ydl.versionupdate;
 
 import android.app.Activity;
