@@ -1,10 +1,10 @@
 # VersionUpdate
-android 版本自动升级框架
+## android 版本自动升级框架
 
-先看效果
+## 先看效果
 ![image](https://github.com/linglongxin24/VersionUpdate/blob/master/20140721103828975.png)
-使用
-...java
+## 使用
+```java
 package com.ydl.versionupdate;
 
 import android.app.Activity;
@@ -38,8 +38,10 @@ public class MainActivity extends Activity {
 		return true;
 	}
 }
+```
+----
 
-服务器json文件内容
-
+## 服务器json文件内容
+```gson
 [{"app_name":"版本自动更新测试","apkname":"PassportSearch.apk","versionCode":"2","versionName":"1.0.1","apksize":"277883","apkinfo":"1,新增了登录注册功能。\n1,修复了部分bug!"}]
 
